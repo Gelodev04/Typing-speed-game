@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Head from 'next/head';
+import { Navbar } from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Type Faster",
   description: "Just Type Faster",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -14,10 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/public/favicon.ico" />
-      </Head>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,0 +1,19 @@
+.button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: opacity 0.2s ease-in-out;
+  font-family: "Jersey 15", serif;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button:active {
+  opacity: 0.5;
+}
+

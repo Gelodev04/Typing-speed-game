@@ -1,8 +1,5 @@
-import Game from "./components/Game";
-
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <Game/>
-  );
+  redirect("/type");
 }

@@ -1,0 +1,14 @@
+.container {
+  display: block;
+}
+
+.message {
+  font-size: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: none;
+  }
+}
+

@@ -1,0 +1,21 @@
+.container {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.stat {
+  font-size: 1.875rem;
+}
+
+.good {
+  color: #22c55e;
+}
+
+.bad {
+  color: #dc2626;
+}
+

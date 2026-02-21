@@ -1,0 +1,35 @@
+.gameContainer {
+  background-color: rgba(48, 47, 47, 0.6);
+  width: 1000px;
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.75rem;
+  letter-spacing: 0.1em;
+}
+
+.instruction {
+  letter-spacing: 0.1em;
+  font-size: 1.125rem;
+}
+
+.wpmDisplay {
+  font-size: 6rem;
+}
+
+.resetButtonContainer {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1023px) {
+  .gameContainer {
+    display: none;
+  }
+}
+

@@ -1,0 +1,31 @@
+export const RANDOM_SENTENCES = [
+  "nature has always been a source of inspiration for humanity",
+  "from the vast oceans to the serene forests every corner of the natural world offers unique wonders",
+  "walking through a peaceful park or watching a sunrise can bring a sense of calm and reflection",
+  "nature teaches us resilience and adaptability reminding us of our interconnectedness with the environment",
+  "the beauty of nature lies in its simplicity and harmony providing a sense of tranquility",
+  "hiking through mountains or exploring remote landscapes can be an awe-inspiring experience",
+  "the sound of birdsong or the rustle of leaves in the wind can create a serene atmosphere",
+  "nature offers endless opportunities for exploration and discovery fueling curiosity and creativity",
+  "every season brings a new set of wonders from blooming flowers in spring to falling leaves in autumn",
+  "observing wildlife in their natural habitats helps us appreciate the diversity of life on earth",
+  "the oceans cover over 70% of the earth's surface offering vast opportunities for marine exploration",
+  "rain forests are home to a significant portion of the planet's biodiversity providing essential ecological services",
+  "even the smallest insects play a crucial role in maintaining the balance of ecosystems",
+  "mountains act as natural barriers influencing weather patterns and providing habitat for numerous species",
+  "nature's cycles of growth and decay are vital for sustaining life on earth",
+  "watching a sunset or a star-filled night sky evokes a sense of wonder and awe",
+  "gardening is a therapeutic activity that connects us with the natural world and nurtures our environment",
+  "the changing seasons provide a beautiful backdrop for photography and artistic expression",
+  "natures resilience is evident in the way it regenerates after natural disasters or human intervention",
+  "forests produce oxygen regulate climate and support countless species of plants and animals",
+  "beachcombing offers a meditative experience as we collect shells and observe marine life",
+] as const;
+
+export const GAME_CONFIG = {
+  UPDATE_INTERVAL_MS: 100,
+  MIN_DURATION_MINUTES: 0.01,
+  CHARS_PER_WORD: 5,
+  WPM_THRESHOLD: 60,
+  ACCURACY_THRESHOLD: 80,
+} as const;
